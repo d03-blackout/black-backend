@@ -1,0 +1,12 @@
+###
+GET http://localhost:3000
+
+### Create / Signup User
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "rob@rob.rob",
+  "password": "rob12345"
+}
